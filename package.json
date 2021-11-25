@@ -1,0 +1,26 @@
+{
+  "name": "secure-file-share",
+  "version": "1.0.0",
+  "description": "share files securely from goole drive using node js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ak-1420/secure-file-share.git"
+  },
+  "author": "Arun Kumar Kalakuntla <arunkumarkalakuntla2308@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ak-1420/secure-file-share/issues"
+  },
+  "homepage": "https://github.com/ak-1420/secure-file-share#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "googleapis": "^91.0.0"
+  }
+}
